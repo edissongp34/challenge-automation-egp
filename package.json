@@ -1,0 +1,21 @@
+{
+  "name": "challenge-automation-egp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:web": "playwright test tests/web",
+    "test:list": "playwright test --list",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "typescript": "^5.7.2"
+  }
+}
